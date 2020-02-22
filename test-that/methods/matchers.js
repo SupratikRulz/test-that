@@ -10,4 +10,4 @@ const matchers = (exp) => ({
   }
 })
 
-export default matchers
+module.exports = matchers

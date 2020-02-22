@@ -1,0 +1,32 @@
+{
+  "name": "js-test-framework",
+  "version": "1.0.0",
+  "description": "A lite weight javascript/node test framework",
+  "main": "test-that/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SupratikRulz/test-that.git"
+  },
+  "keywords": [
+    "test-that",
+    "testing",
+    "framework",
+    "javascript",
+    "node",
+    "karma",
+    "jasmine",
+    "jest"
+  ],
+  "author": "Supratik Basu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SupratikRulz/test-that/issues"
+  },
+  "homepage": "https://github.com/SupratikRulz/test-that#readme"
+}

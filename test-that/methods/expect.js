@@ -1,5 +1,5 @@
-import matchers from './matchers'
+const matchers = require('./matchers')
 
 const expect = (expresion) => matchers(expresion)
 
-export default expect
+module.exports = expect

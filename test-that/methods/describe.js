@@ -3,4 +3,4 @@ const describe = (desc, fn) => {
   fn()
 }
 
-export default describe
+module.exports = describe
