@@ -1,5 +1,5 @@
-import describe from './describe'
+const describe = require('./describe')
 
 const it = (msg, fn) => describe('  ' + msg, fn)
 
-export default it
+module.exports = it
