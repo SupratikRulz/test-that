@@ -2,7 +2,7 @@
 
 ### Light weight javascript/node testing library. NPM package to be added soon
 
-##### Currently supports toBe() matcher method - more comming soon!
+##### Currently supports ```toBe()``` matcher method - more comming soon!
 ## Usage Guide
 ```javascript
 
