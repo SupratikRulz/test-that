@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/SupratikRulz/test-that/issues"
   },
-  "homepage": "https://github.com/SupratikRulz/test-that#readme"
+  "homepage": "https://github.com/SupratikRulz/test-that#readme",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
 }

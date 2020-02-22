@@ -1,5 +1,6 @@
+const chalk = require('chalk');
 const describe = (desc, fn) => {
-  console.log(desc)
+  console.log(chalk.bold(desc))
   fn()
 }
 

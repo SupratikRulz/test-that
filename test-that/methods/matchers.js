@@ -1,10 +1,12 @@
+const chalk = require('chalk')
+
 const matchers = (exp) => ({
   toBe: (assertion) => {
     if (exp === assertion) {
-      console.log('pass')
+      console.log(chalk.bold.greenBright('✓ PASS'))
       return true
     } else {
-      console.log('fail')
+      console.log(chalk.bold.redBright('✗ FAIL'))
       return false
     }
   }
